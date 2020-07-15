@@ -10,20 +10,20 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../plugins/images/favicon.png">
     <title>Elite Admin Template - The Ultimate Multipurpose admin template</title>
     <!-- Bootstrap Core CSS -->
-    <link href="{{ secure_asset('elite/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ secure_asset('plugins/bower_components/bootstrap-extension/css/bootstrap-extension.css') }}" rel="stylesheet">
+    <link href="{{ asset('elite/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('plugins/bower_components/bootstrap-extension/css/bootstrap-extension.css') }}" rel="stylesheet">
     <!-- Menu CSS -->
-    <link href="{{ secure_asset('plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css') }}" rel="stylesheet">
     <!-- toast CSS -->
-    <link href="{{ secure_asset('plugins/bower_components/toast-master/css/jquery.toast.css') }}" rel="stylesheet">
+    <link href="{{ asset('plugins/bower_components/toast-master/css/jquery.toast.css') }}" rel="stylesheet">
     <!-- morris CSS -->
-    <link href="{{ secure_asset('plugins/bower_components/morrisjs/morris.css') }}" rel="stylesheet">
+    <link href="{{ asset('plugins/bower_components/morrisjs/morris.css') }}" rel="stylesheet">
     <!-- animation CSS -->
-    <link href="{{ secure_asset('elite/css/animate.css') }}" rel="stylesheet">
+    <link href="{{ asset('elite/css/animate.css') }}" rel="stylesheet">
     <!-- Custom CSS -->
-    <link href="{{ secure_asset('elite/css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('elite/css/style.css') }}" rel="stylesheet">
     <!-- color CSS -->
-    <link href="{{ secure_asset('elite/css/colors/megna.css') }}" id="theme" rel="stylesheet">
+    <link href="{{ asset('elite/css/colors/megna.css') }}" id="theme" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -58,7 +58,7 @@
         <!-- Navigation -->
         <nav class="navbar navbar-default navbar-static-top m-b-0">
             <div class="navbar-header"> <a class="navbar-toggle hidden-sm hidden-md hidden-lg " href="javascript:void(0)" data-toggle="collapse" data-target=".navbar-collapse"><i class="ti-menu"></i></a>
-                <div class="top-left-part"><a class="logo" href="index.html"><b><img src="{{ secure_asset('assets/image/logo/icon.png') }}" width="100%" alt="home" /></b><span class="hidden-xs"><img src="{{ secure_asset('assets/image/logo/word.png') }}" width="110px" alt="home" /></span></a></div>
+                <div class="top-left-part"><a class="logo" href="index.html"><b><img src="{{ asset('assets/image/logo/icon.png') }}" width="100%" alt="home" /></b><span class="hidden-xs"><img src="{{ asset('assets/image/logo/word.png') }}" width="110px" alt="home" /></span></a></div>
                 <ul class="nav navbar-top-links navbar-left hidden-xs">
                     <li><a href="javascript:void(0)" class="open-close hidden-xs waves-effect waves-light"><i class="icon-arrow-left-circle ti-menu"></i></a></li>
                     <li>
@@ -79,25 +79,25 @@
                             <li>
                                 <div class="message-center">
                                     <a href="#">
-                                        <div class="user-img"> <img src="{{ secure_asset('plugins/images/users/pawandeep.jpg') }}" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
+                                        <div class="user-img"> <img src="{{ asset('plugins/images/users/pawandeep.jpg') }}" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
                                         <div class="mail-contnet">
                                             <h5>Pavan kumar</h5>
                                             <span class="mail-desc">Just see the my admin!</span> <span class="time">9:30 AM</span> </div>
                                     </a>
                                     <a href="#">
-                                        <div class="user-img"> <img src="{{ secure_asset('plugins/images/users/sonu.jpg') }}" alt="user" class="img-circle"> <span class="profile-status busy pull-right"></span> </div>
+                                        <div class="user-img"> <img src="{{ asset('plugins/images/users/sonu.jpg') }}" alt="user" class="img-circle"> <span class="profile-status busy pull-right"></span> </div>
                                         <div class="mail-contnet">
                                             <h5>Sonu Nigam</h5>
                                             <span class="mail-desc">I've sung a song! See you at</span> <span class="time">9:10 AM</span> </div>
                                     </a>
                                     <a href="#">
-                                        <div class="user-img"> <img src="{{ secure_asset('plugins/images/users/arijit.jpg') }}" alt="user" class="img-circle"> <span class="profile-status away pull-right"></span> </div>
+                                        <div class="user-img"> <img src="{{ asset('plugins/images/users/arijit.jpg') }}" alt="user" class="img-circle"> <span class="profile-status away pull-right"></span> </div>
                                         <div class="mail-contnet">
                                             <h5>Arijit Sinh</h5>
                                             <span class="mail-desc">I am a singer!</span> <span class="time">9:08 AM</span> </div>
                                     </a>
                                     <a href="#">
-                                        <div class="user-img"> <img src="{{ secure_asset('plugins/images/users/pawandeep.jpg') }}" alt="user" class="img-circle"> <span class="profile-status offline pull-right"></span> </div>
+                                        <div class="user-img"> <img src="{{ asset('plugins/images/users/pawandeep.jpg') }}" alt="user" class="img-circle"> <span class="profile-status offline pull-right"></span> </div>
                                         <div class="mail-contnet">
                                             <h5>Pavan kumar</h5>
                                             <span class="mail-desc">Just see the my admin!</span> <span class="time">9:02 AM</span> </div>
@@ -526,28 +526,28 @@
                             <ul class="m-t-20 chatonline">
                                 <li><b>Chat option</b></li>
                                 <li>
-                                    <a href="javascript:void(0)"><img src="{{ secure_asset('plugins/images/users/varun.jpg') }}" alt="user-img" class="img-circle"> <span>Varun Dhavan <small class="text-success">online</small></span></a>
+                                    <a href="javascript:void(0)"><img src="{{ asset('plugins/images/users/varun.jpg') }}" alt="user-img" class="img-circle"> <span>Varun Dhavan <small class="text-success">online</small></span></a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)"><img src="{{ secure_asset('plugins/images/users/genu.jpg') }}" alt="user-img" class="img-circle"> <span>Genelia Deshmukh <small class="text-warning">Away</small></span></a>
+                                    <a href="javascript:void(0)"><img src="{{ asset('plugins/images/users/genu.jpg') }}" alt="user-img" class="img-circle"> <span>Genelia Deshmukh <small class="text-warning">Away</small></span></a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)"><img src="{{ secure_asset('plugins/images/users/ritesh.jpg') }}" alt="user-img" class="img-circle"> <span>Ritesh Deshmukh <small class="text-danger">Busy</small></span></a>
+                                    <a href="javascript:void(0)"><img src="{{ asset('plugins/images/users/ritesh.jpg') }}" alt="user-img" class="img-circle"> <span>Ritesh Deshmukh <small class="text-danger">Busy</small></span></a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)"><img src="{{ secure_asset('plugins/images/users/arijit.jpg') }}" alt="user-img" class="img-circle"> <span>Arijit Sinh <small class="text-muted">Offline</small></span></a>
+                                    <a href="javascript:void(0)"><img src="{{ asset('plugins/images/users/arijit.jpg') }}" alt="user-img" class="img-circle"> <span>Arijit Sinh <small class="text-muted">Offline</small></span></a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)"><img src="{{ secure_asset('plugins/images/users/govinda.jpg') }}" alt="user-img" class="img-circle"> <span>Govinda Star <small class="text-success">online</small></span></a>
+                                    <a href="javascript:void(0)"><img src="{{ asset('plugins/images/users/govinda.jpg') }}" alt="user-img" class="img-circle"> <span>Govinda Star <small class="text-success">online</small></span></a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)"><img src="{{ secure_asset('plugins/images/users/hritik.jpg') }}" alt="user-img" class="img-circle"> <span>John Abraham<small class="text-success">online</small></span></a>
+                                    <a href="javascript:void(0)"><img src="{{ asset('plugins/images/users/hritik.jpg') }}" alt="user-img" class="img-circle"> <span>John Abraham<small class="text-success">online</small></span></a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)"><img src="{{ secure_asset('plugins/images/users/john.jpg') }}" alt="user-img" class="img-circle"> <span>Hritik Roshan<small class="text-success">online</small></span></a>
+                                    <a href="javascript:void(0)"><img src="{{ asset('plugins/images/users/john.jpg') }}" alt="user-img" class="img-circle"> <span>Hritik Roshan<small class="text-success">online</small></span></a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)"><img src="{{ secure_asset('plugins/images/users/pawandeep.jpg') }}" alt="user-img" class="img-circle"> <span>Pwandeep rajan <small class="text-success">online</small></span></a>
+                                    <a href="javascript:void(0)"><img src="{{ asset('plugins/images/users/pawandeep.jpg') }}" alt="user-img" class="img-circle"> <span>Pwandeep rajan <small class="text-success">online</small></span></a>
                                 </li>
                             </ul>
                         </div>
@@ -562,30 +562,30 @@
     </div>
     <!-- /#wrapper -->
     <!-- jQuery -->
-    <script src="{{ secure_asset('plugins/bower_components/jquery/dist/jquery.min.js') }}"></script>
+    <script src="{{ asset('plugins/bower_components/jquery/dist/jquery.min.js') }}"></script>
     <!-- Bootstrap Core JavaScript -->
-    <script src="{{ secure_asset('elite/bootstrap/dist/js/tether.min.js') }}"></script>
-    <script src="{{ secure_asset('elite/bootstrap/dist/js/bootstrap.min.js') }}"></script>
-    <script src="{{ secure_asset('plugins/bower_components/bootstrap-extension/js/bootstrap-extension.min.js') }}"></script>
+    <script src="{{ asset('elite/bootstrap/dist/js/tether.min.js') }}"></script>
+    <script src="{{ asset('elite/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('plugins/bower_components/bootstrap-extension/js/bootstrap-extension.min.js') }}"></script>
     <!-- Menu Plugin JavaScript -->
-    <script src="{{ secure_asset('plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js') }}"></script>
+    <script src="{{ asset('plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js') }}"></script>
     <!--slimscroll JavaScript -->
-    <script src="{{ secure_asset('elite/js/jquery.slimscroll.js') }}"></script>
+    <script src="{{ asset('elite/js/jquery.slimscroll.js') }}"></script>
     <!--Wave Effects -->
-    <script src="{{ secure_asset('elite/js/waves.js') }}"></script>
+    <script src="{{ asset('elite/js/waves.js') }}"></script>
     <!--Counter js -->
-    <script src="{{ secure_asset('plugins/bower_components/waypoints/lib/jquery.waypoints.js') }}"></script>
-    <script src="{{ secure_asset('plugins/bower_components/counterup/jquery.counterup.min.js') }}"></script>
+    <script src="{{ asset('plugins/bower_components/waypoints/lib/jquery.waypoints.js') }}"></script>
+    <script src="{{ asset('plugins/bower_components/counterup/jquery.counterup.min.js') }}"></script>
     <!--Morris JavaScript -->
-    <script src="{{ secure_asset('plugins/bower_components/raphael/raphael-min.js') }}"></script>
-    <script src="{{ secure_asset('plugins/bower_components/morrisjs/morris.js') }}"></script>
+    <script src="{{ asset('plugins/bower_components/raphael/raphael-min.js') }}"></script>
+    <script src="{{ asset('plugins/bower_components/morrisjs/morris.js') }}"></script>
     <!-- Custom Theme JavaScript -->
-    <script src="{{ secure_asset('elite/js/custom.min.js') }}"></script>
-    <script src="{{ secure_asset('elite/js/dashboard1.js') }}"></script>
+    <script src="{{ asset('elite/js/custom.min.js') }}"></script>
+    <script src="{{ asset('elite/js/dashboard1.js') }}"></script>
     <!-- Sparkline chart JavaScript -->
-    <script src="{{ secure_asset('plugins/bower_components/jquery-sparkline/jquery.sparkline.min.js') }}"></script>
-    <script src="{{ secure_asset('plugins/bower_components/jquery-sparkline/jquery.charts-sparkline.js') }}"></script>
-    <script src="{{ secure_asset('plugins/bower_components/toast-master/js/jquery.toast.js') }}"></script>
+    <script src="{{ asset('plugins/bower_components/jquery-sparkline/jquery.sparkline.min.js') }}"></script>
+    <script src="{{ asset('plugins/bower_components/jquery-sparkline/jquery.charts-sparkline.js') }}"></script>
+    <script src="{{ asset('plugins/bower_components/toast-master/js/jquery.toast.js') }}"></script>
     <script type="text/javascript">
     $(document).ready(function() {
         $.toast({
@@ -601,7 +601,7 @@
     });
     </script>
     <!--Style Switcher -->
-    <script src="{{ secure_asset('plugins/bower_components/styleswitcher/jQuery.style.switcher.js') }}"></script>
+    <script src="{{ asset('plugins/bower_components/styleswitcher/jQuery.style.switcher.js') }}"></script>
     @yield('script')
 </body>
 
